@@ -1,7 +1,6 @@
 package cse512
 
 import org.apache.spark.sql.SparkSession
-import org.apache.spark.sql.streaming.StreamingQueryListener.QueryTerminatedEvent
 
 object SpatialQuery extends App{
   def runRangeQuery(spark: SparkSession, arg1: String, arg2: String): Long = {
